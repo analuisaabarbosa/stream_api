@@ -11,7 +11,6 @@ import java.util.function.Consumer;
  * elementos do Stream sem modificar, ou
  * retornar um valor.
  */
-
 public class ConsumerType {
     public static void main(String[] args) {
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5);

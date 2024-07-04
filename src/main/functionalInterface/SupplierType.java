@@ -16,8 +16,8 @@ public class SupplierType {
         Supplier<String> saudacao = () -> "Olá, seja muito bem-vindo(a)";
 
         List<String> listaSaudacoes = Stream.generate(() -> "Olá, seja muito bem-vindo(a)")
-                .limit(5)
-                .toList();
+            .limit(5)
+            .toList();
 
         listaSaudacoes.forEach(System.out::println);
     }

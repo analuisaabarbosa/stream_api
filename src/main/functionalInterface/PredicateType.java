@@ -18,7 +18,7 @@ public class PredicateType {
     Predicate<String> maisDeCincoCaracteres = palavra -> palavra.length() > 5;
 
     palavras.stream()
-    .filter(p -> p.length() > 5)
-    .forEach(System.out::println);
+        .filter(p -> p.length() > 5)
+        .forEach(System.out::println);
   }
 }
